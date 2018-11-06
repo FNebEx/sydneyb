@@ -43,8 +43,12 @@ profile_pic: "https://source.unsplash.com/d7_VlT6FWVo"
 <section class="movies">
   <h1>My lastest Work</h1>
   {% assign movie = site.data.movies.last %}
+
+  <div class="movie-wrapper mt-3 mb-3">
+    <h3>{{ movie.title }}</h3>
+    <h6>Released: {{ movie.release_year }}</h6>
+    <p>{{ movie.description }}</p>
+    <a href="#">Check Out My Resume</a>
+  </div>
   
-  <h3>{{ movie.title }}</h3>
-  <h6>Released: {{ movie.release_year }}</h6>
-  <p>{{ movie.description }}</p>
 </section>

@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /resume/
+---
+
+<h1>Makeup Design Resume</h1>
+<br>
+
+<section class="row mb-3">
+  <div class="col-lg-4">
+    <div class="movie-resume-about mb-3">
+      <h5>{{ site.title }}: Makeup Designer</h5>
+      <hr>
+      <p>Here are the plays and films that I have done makeup design for. If you would like to work with me, don't hesitate to <a href="#">contact me.</a></p>
+      <!-- TODO: link to the contact page -->
+      <hr>
+      <p>I'm also on social media. Following me on <a href="{{ site.instagram }}">Instagram</a> to what what production I'm working on, or what i'm working on in general.</p>
+      <hr>
+    </div>
+  </div>
+  <div class="col-lg-8">
+    {% for movie in site.data.movies reversed %}
+      <div class="movie-wrapper mb-3">
+        <h3>{{ movie.title }}</h3>
+        <h6>{{ movie.release_year }}</h6>
+        <p>{{ movie.description }}</p>
+        <a href="{{ movie.movie_link }}">Go to {{ movie.title }} site</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>

@@ -30,11 +30,26 @@ header {
   .navbar .nav-link, .navbar .navbar-brand {
     color: #393E41; }
 
+.movie-wrapper {
+  padding: 10px 25px;
+  -webkit-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42); }
+  .movie-wrapper p {
+    font-style: italic;
+    line-height: 1.7em; }
+
+.movie-resume-about {
+  padding: 10px 15px;
+  -webkit-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42); }
+
 footer {
-  border: 1px solid black;
+  padding: 20px;
   width: 100%;
-  height: 40%;
-  background-color: #F9B8D8; }
+  height: 50%;
+  background-color: #eacdcf; }
   footer h1 {
     font-weight: bold; }
   footer h2 {
