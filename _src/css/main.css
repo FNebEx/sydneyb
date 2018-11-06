@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  color: #393E41;
+  background-color: #ffffff; }
+
+.site-content {
+  flex: 1; }
+
+header {
+  width: 100%;
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("https://source.unsplash.com/-RBuQ2PK_L8") center center no-repeat;
+  background-size: cover; }
+  header h1 {
+    margin: auto; }
+  header .attributes {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; }
+
+.navbar {
+  background-color: rgba(250, 250, 250, 0.7); }
+  .navbar .nav-link, .navbar .navbar-brand {
+    color: #393E41; }
+
+footer {
+  border: 1px solid black;
+  width: 100%;
+  height: 40%;
+  background-color: #F9B8D8; }
+  footer h1 {
+    font-weight: bold; }
+  footer h2 {
+    font-weight: bold; }
+  footer h3 {
+    font-weight: bold; }
+  footer h4 {
+    font-weight: bold; }
+  footer h5 {
+    font-weight: bold; }
+  footer h6 {
+    font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */

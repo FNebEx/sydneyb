@@ -1,0 +1,10 @@
+source: ./_src
+destination: ./_dist
+
+title: Sydney Bouthsavong
+
+instagram: "https://www.instagram.com/pastelskidney/"
+email: "SydneyB@boneless.email.com"
+
+exclude:
+  - Gemfile
