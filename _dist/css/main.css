@@ -32,18 +32,29 @@ header {
 
 .movie-wrapper {
   padding: 10px 25px;
-  -webkit-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42);
-  box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42); }
+  -webkit-box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75); }
   .movie-wrapper p {
     font-style: italic;
     line-height: 1.7em; }
 
 .movie-resume-about {
   padding: 10px 15px;
-  -webkit-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42);
-  box-shadow: 0px 1px 18px 1px rgba(0, 0, 0, 0.42); }
+  -webkit-box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75); }
+
+.fneb-card {
+  width: 100%;
+  -webkit-box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 11px -3px rgba(0, 0, 0, 0.75); }
+  .fneb-card .fneb-card-body {
+    width: 100%;
+    padding: 10px 25px; }
+    .fneb-card .fneb-card-body p {
+      margin-top: 20px; }
 
 footer {
   padding: 20px;
