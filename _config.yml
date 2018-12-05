@@ -1,11 +1,17 @@
-source: ./_src
-destination: ./_dist
-form_api: UDDJZxc4l42AZY5LETCT
-
+---
 title: Sydney Bouthsavong
-
-instagram: "https://www.instagram.com/pastelskidney/"
-email: "SydneyB@boneless.email.com"
-
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+source: "./_src"
+destination: "./_dist"
+form_api: UDDJZxc4l42AZY5LETCT
+instagram: https://www.instagram.com/pastelskidney/
+email: SydneyB@boneless.email.com
 exclude:
-  - Gemfile
+- Gemfile
