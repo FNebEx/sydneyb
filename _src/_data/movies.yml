@@ -4,24 +4,27 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit maiores
     neque cumque exercitationem sit nam, non nostrum expedita!
   movie_link: '#'
-
 - title: Movie Title 2
   release_year: '2018'
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit maiores
     neque cumque exercitationem sit nam, non nostrum expedita!
   movie_link: '#'
-  
 - title: Movie Title 3
   release_year: '2018'
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit maiores
     neque cumque exercitationem sit nam, non nostrum expedita!
   movie_link: '#'
-  
 - title: That One Movie that She Didn't Like
   release_year: '2018'
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit maiores
     neque cumque exercitationem sit nam, non nostrum expedita!
+  movie_link: '#'
+- title: Another Local Movie
+  release_year: '2018'
+  description: >-
+    This is me testing out something in cloudcannon. This is a lot easier than I
+    thought that I would be...
   movie_link: '#'
